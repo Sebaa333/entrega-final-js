@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sebaa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>Musical Instruments</h2>
+        <div class="two columns u-pull-right">
+            <ul>
+                <li class="submenu">
+                    <img src="img/carrito.png" id="img-carrito" >
+                    <div id="carrito">
+                        <table id="lista-carrito" class="u-full-width">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="Fcompra.html" id="finalizar-compra" class="btn btn-success u-full-width">Finalizar Compra</a>
+                        <a href="#" id="vaciar-carrito" class="btn btn-danger u-full-width">Vaciar Carrito</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <!-- JSON -->
+            <main id="items" class="col-sm-8 row">
+                
+            </main>
+
+        </div>
+    </div>
+
+    <button>
+    <span class="psw"><a href="Fcompra.html">Finalizar compra</a></span>
+    </button>
+    
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>
